@@ -1,0 +1,326 @@
+body{
+	background: white;
+	width: 1202px auto;
+	height: 1873px auto;
+}
+
+header .img-fluid{
+	margin-top:-124px;
+	display: flex;
+  width: 248px;
+  height: 248px auto;
+}
+
+header {
+	
+	width: 1140px auto;
+	height: 250px;
+	background: #1e1414;
+}
+
+.navbar{
+	z-index: 1;
+	display: block;
+	background: #1e1414;
+}
+
+
+.navbar-collapse{
+
+	font-size: 24px;
+	margin-inline-start: 30px;
+}
+.nav-item {
+	margin-inline-start: 30px;
+}
+.nav-item :hover{
+
+text-decoration: underline;
+}
+
+.form-group input{
+	width: 300px;
+}
+
+.title2 {
+	
+	padding-right: 30px;
+	padding-left: 31px;
+	margin-top: 122px;
+	width: 1141px auto;
+	height: 50px;
+}
+.gov {
+margin: 5px;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	height: 50px;
+	background:#979797; 
+}
+
+.left-menu {
+	margin-top: 10px;
+	width:200px;
+	font-family:arial,georgia,helvetica;
+	line-height:1.5;
+}
+.vmenu h4{
+	background:#fff;
+	width:200px;
+	color:#000;
+	font-size:large;
+	font-weight:500;
+	padding:7px 15px; 
+	background: #979797;   
+}
+.vmenu h4 a{
+	text-decoration:none;
+	color: #000;
+	width:200px;
+	display:block;
+}
+.vmenu h4:hover{
+   background:#979797; 		
+}
+.vmenu ol{
+	background: #eee;	
+	font-size:13px;
+	font-height:30px;
+	list-style-type:none;
+	padding:0px;
+	overflow:hidden;
+	height:0px;
+	transition:height 1s ease;		
+}
+.vmenu ol a{
+	color:black;
+	text-decoration:none;
+	width:200px;
+	margin-left:50px;
+	font-size:large;
+	height:30px;
+}
+.vmenu li{
+	border-bottom:solid 2px #eee;
+}
+.vmenu li:hover{
+	background:orange;	
+}
+.vmenu:hover #s3{
+	height:93px;		   
+}
+ .vmenu:hover #s4{
+	height:124px;	   
+}
+.vmenu:hover #s5{
+	height:160px;
+}
+.vmenu:hover #s8 {
+	height:250px;
+}
+.vmenu:hover #s15{
+	height:445px; 
+}
+.vmenu:active #s15{
+	height:445px;
+}
+.Ipojaleu {
+	width: 1200px;
+	height: auto;
+	display: flex;
+}
+
+.tovar {
+	margin-left: 40px;
+	width: 800px auto;
+	padding-block-end: 4px;
+ 	padding-block-start: 4px;
+ 	padding-inline-end: 4px;
+	background: gray;
+	display: flex;
+}
+.row {
+	margin-inline-start: 0px;
+}
+
+.product {
+	box-shadow: 0px 2px 2px;
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+	width: 160px;
+	height: 160px;
+}
+.product img {
+	margin-inline-start: 10px;
+	margin-block-start: 5px;
+	width: 140px;
+	height: 140px;
+}
+
+.product :hover {
+    cursor: pointer;
+}
+
+.add{
+    position: absolute;
+    padding: 10px;
+    margin-top: -96px;
+	font-size: 16px;
+	margin-left: 24px;
+    color: white;
+   border: 3px solid #959c90;
+   background: #959c90;
+   opacity: 0;
+}
+ 
+
+.product:hover > .add {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.add:hover {
+    background: #B0C4DE;
+}
+
+.product2{
+	box-shadow: 0px 2px 2px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -11px;
+	background: #D9D9D9;
+	width: 160px;
+	height: 82px;
+}
+
+
+.left-block {
+	overflow: hidden;
+	width: 60%;
+	margin-left: 0px;
+	float: left;
+	font-size: 14px;
+}
+.right-block {
+	width: 55px;
+	margin: 0;
+	float: right;
+}
+.qualete{
+	display: inline;
+}
+.qualete{
+	font-size: 13px; 
+	text-align: center;
+	width: 25px;
+	height: 25px;
+	border: 3px solid white;
+	border-radius: 20px;
+	background: white;
+	float: right;
+	margin-top: 2px;
+	margin-inline-end: 2px;
+}
+.down-block {
+	width: 160px;
+	height: 30px;
+	display: inline-block;
+}
+.year , .price {
+	display: inline;
+	
+}
+.price {
+	font-size: 18px;	
+	margin-left: 30px;
+}
+
+footer {
+	display: flex;
+	margin-top: 135px;
+	width: 100% auto;
+	height: 241px;	
+	background: #C4C4C4;
+}
+footer {
+	display: flex;
+	margin-top: 135px;
+	width: 100% auto;
+	height: 201px;	
+	background: #C4C4C4;
+}
+footer .container {
+	display: flex;
+}
+
+footer .row {
+	height: 100%;
+	display: flex;
+}
+.f-block1{
+	
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	display: inline-block;
+}
+.f-block11 {
+	margin-top: 30px;
+	
+	display: flex;
+}
+.f-block11 svg{
+	margin-inline-start: 30px;
+}
+.facebook, .inst, .vk {
+	margin-inline-end: 15px;
+	display: flex;
+}
+.mail , .phone {
+	
+	margin-top: 15px;
+	margin-left: 40px;
+}
+.f-block2{
+	margin: 30px;
+	margin-left: 50px;
+font-family: PT Sans;
+
+}
+.f-block21 {
+	font-size: 26px;
+}
+.f-block22 {
+	font-size: 20px;
+}
+.f-block3 {
+	margin: 30px;
+	margin-left: 120px;
+font-family: PT Sans;
+}
+.f-block4 img{
+
+	margin: 30px;
+	margin-left: 80px;
+	width: 140px;
+	height: 140px;
+}
+.f-block5 {
+	margin-top: -7PX;
+	margin-left: 20%;
+	width: 160px;
+	height: 0px;
+	
+	
+}
+.f-block5 img {
+	
+	display: flex;
+  width: 140px;
+  height: 70px;
+}

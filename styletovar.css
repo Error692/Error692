@@ -1,0 +1,146 @@
+body{
+	background: white;
+	width: 1202px auto;
+	height: 1873px auto;
+}
+
+header .img-fluid{
+	margin-top:-124px;
+	display: flex;
+  width: 248px;
+  height: 248px auto;
+}
+
+header {
+	
+	width: 1140px auto;
+	height: 250px;
+	background: #1e1414;
+}
+
+.navbar{
+	z-index: 1;
+	display: block;
+	background: #1e1414;
+}
+
+
+.navbar-collapse{
+
+	font-size: 24px;
+	margin-inline-start: 30px;
+}
+.nav-item {
+	margin-inline-start: 30px;
+}
+.nav-item :hover{
+
+text-decoration: underline;
+}
+
+.form-group input{
+	width: 300px;
+}
+
+.title2 {
+	
+	padding-right: 30px;
+	padding-left: 31px;
+	margin-top: 122px;
+	width: 1141px auto;
+	height: 50px;
+}
+.gov {
+margin: 5px;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	height: 50px;
+	background:#979797; 
+}
+footer {
+	display: flex;
+	margin-top: 135px;
+	width: 100% auto;
+	height: 241px;	
+	background: #C4C4C4;
+}
+footer {
+	display: flex;
+	margin-top: 135px;
+	width: 100% auto;
+	height: 201px;	
+	background: #C4C4C4;
+}
+footer .container {
+	display: flex;
+}
+
+footer .row {
+	height: 100%;
+	display: flex;
+}
+.f-block1{
+	
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	display: inline-block;
+}
+.f-block11 {
+	margin-top: 30px;
+	
+	display: flex;
+}
+.f-block11 svg{
+	margin-inline-start: 30px;
+}
+.facebook, .inst, .vk {
+	margin-inline-end: 15px;
+	display: flex;
+}
+.mail , .phone {
+	
+	margin-top: 15px;
+	margin-left: 40px;
+}
+.f-block2{
+	margin: 30px;
+	margin-left: 50px;
+font-family: PT Sans;
+
+}
+.f-block21 {
+	font-size: 26px;
+}
+.f-block22 {
+	font-size: 20px;
+}
+.f-block3 {
+	margin: 30px;
+	margin-left: 120px;
+font-family: PT Sans;
+}
+.f-block4 img{
+
+	margin: 30px;
+	margin-left: 80px;
+	width: 140px;
+	height: 140px;
+}
+.f-block5 {
+	margin-top: -7PX;
+	margin-left: 20%;
+	width: 160px;
+	height: 0px;
+	
+	
+}
+.f-block5 img {
+	
+	display: flex;
+  width: 140px;
+  height: 70px;
+}
